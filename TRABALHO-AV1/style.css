@@ -1,0 +1,44 @@
+body{
+    background-color: white;
+}
+div{
+    background-color: white;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.produtos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.produtos img{
+    width: 250px;
+    height: auto;
+}
+.video{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.video h1{
+    width: 600px;
+    height: auto;
+}
+.equipe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.newslatter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
