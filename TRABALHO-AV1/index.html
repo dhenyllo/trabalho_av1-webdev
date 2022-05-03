@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,10 +8,19 @@
     <link rel="stylesheet" href="style.css">
     <title>Darkness</title>
 </head>
+
 <body>
-    <header>
+    <header id="cabecalho">
         <div>
-                <img class="logo-darkness" src="./images/OIP.jpg" alt="logo">
+            <nav>
+                <ul>
+                    <a href="#cabecalho">Inicio</a>
+                    <a href="#produtos">Produtos</a>
+                    <a href="#youtube">Youtube</a>
+                    <a href="#atletas">Atletas</a>
+                </ul>
+            </nav>
+            <img class="logo-darkness" src="./images/OIP.jpg" alt="logo">
             <h3>
                 RECEBA NOSSO BOLETIM DE NOTÍCIAS
             </h3>
@@ -22,8 +32,9 @@
         </div>
     </header>
 
-    <section class="produtos">
-        <div>
+    <section id="produtos">
+        <div class="produto">
+            <h1 class="title">NOSSOS PRODUTOS</h1>
             <img src="./images/vitaminac-1.png" alt="image0">
             <img src="./images/VITAPURE-SUPER-30-TABS.png" alt="image1">
             <img src="./images/reforz-c-suplemento-para-imunidade-integralmedica.png" alt="image2">
@@ -31,16 +42,21 @@
         </div>
     </section>
 
-    <section class="video">
-        <div>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/xTXrSJwUFRw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <section id="youtube">
+        <div class="video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/xTXrSJwUFRw"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </div>
+        <div class="title">
             <h1>
-                CONFIRA ESSE TREINO INSANO DO GIGA, LEO STRONDA E HORSE
+                CONFIRA ESSE TREINO INSANO DOS MONSTROS
             </h1>
         </div>
     </section>
 
-    <section class="equipe">
+    <section id="atletas">
         <div>
             <img id="brandao" src="./images/atleta-rafael-brandao-perfil.png" alt="">
             <h1>
@@ -71,17 +87,21 @@
 
     </section>
 
-    <section class="newslatter">
+    <footer id="rodape"">
+        <div>
         <h3>
             RECEBA NOSSO BOLETIM DE NOTÍCIAS
         </h3>
-        <form class="newslatter">
-            <input id="nome" type="text" name="nome" placeholder="Seu nome">
-            <input id="mail" type="email" name="mail" placeholder="Seu e-mail">
-            <button type="submit" name="ok">Inscrever</button>
+        </div>
+        <div>
+        <form class=" newslatter">
+        <input id="nome" type="text" name="nome" placeholder="Seu nome">
+        <input id="mail" type="email" name="mail" placeholder="Seu e-mail">
+        <button type="submit" name="ok">Inscrever</button>
         </form>
-    </div>
-    </section>
-    
+        </div>
+    </footer>
+
 </body>
+
 </html>
